@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-yellow: #FCB900;
+  --brand-orange: #FF6900;
+  --brand-green: #00D084;
+  --brand-purple: #8b5cf6;
+  --brand-teal: #4ecdc4;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-poppins);
+    color: #1A1A1A;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    line-height: 1.15;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 px-4 md:py-24 md:px-8;
+  }
+
+  .container-max {
+    @apply max-w-6xl mx-auto w-full;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-brand-yellow text-brand-text font-semibold
+           px-6 py-3.5 rounded-full shadow-soft transition-all duration-200
+           hover:bg-brand-orange hover:text-white hover:shadow-card hover:-translate-y-0.5
+           active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 border-2 border-brand-yellow text-brand-text font-semibold
+           px-6 py-3 rounded-full transition-all duration-200
+           hover:bg-brand-yellow hover:shadow-soft hover:-translate-y-0.5
+           active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-brand-yellow focus:ring-offset-2;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-brand-text leading-tight;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-brand-muted leading-relaxed;
+  }
+
+  .card-base {
+    @apply bg-white rounded-3xl shadow-soft p-6 transition-all duration-200
+           hover:shadow-card hover:-translate-y-1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-yellow {
+    background: linear-gradient(135deg, #FCB900 0%, #FF6900 100%);
+  }
+
+  .gradient-green {
+    background: linear-gradient(135deg, #00D084 0%, #00B37A 100%);
+  }
+}
