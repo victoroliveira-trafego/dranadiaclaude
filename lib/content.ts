@@ -124,7 +124,7 @@ export const SERVICES: Service[] = [
   {
     id: "s3",
     icon: "🔧",
-    title: "Tratamento de Cáries",
+    title: "Tratamento de Cárie",
     description:
       "Procedimentos realizados com cuidado e com recursos que deixam a criança tranquila.",
   },
