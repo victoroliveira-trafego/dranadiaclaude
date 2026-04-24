@@ -71,7 +71,7 @@ export default function TestimonialsSection() {
             />
             <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-3xl overflow-hidden shadow-strong z-10">
               <Image
-                src="/images/equipe-tratando-crianca.jpg"
+                src="/images/nadia-e-cliente.jpeg"
                 alt="Equipe da Dra. Nadia atendendo uma criança"
                 fill
                 className="object-cover"

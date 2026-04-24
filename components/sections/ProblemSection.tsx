@@ -57,7 +57,7 @@ export default function ProblemSection() {
             {/* Foto */}
             <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-3xl overflow-hidden shadow-strong z-10">
               <Image
-                src="/images/foto-equipe-abracando-nova.jpg"
+                src="/images/crianca-brincando.jpeg"
                 alt="Equipe da Dra. Nadia acolhendo uma criança"
                 fill
                 className="object-cover"

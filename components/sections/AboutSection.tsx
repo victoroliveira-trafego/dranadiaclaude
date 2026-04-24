@@ -87,7 +87,7 @@ export default function AboutSection() {
 
               <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-3xl overflow-hidden shadow-strong z-10">
                 <Image
-                  src="/images/nadia-e-equipe.jpg"
+                  src="/images/nadia-sentada.jpeg"
                   alt="Dra. Nadia Salem e sua equipe no consultório"
                   fill
                   className="object-cover object-top"
