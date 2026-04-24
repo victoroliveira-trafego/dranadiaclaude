@@ -16,7 +16,7 @@ export const CONTACT = {
   instagramHandle: "@dra_nadia_odontopediatra",
   address: "Rua Fernando Falcão, 1111 — Edifício Bernini, Sala 810, 8° andar",
   city: "Mooca, São Paulo",
-  mapsUrl: "https://goo.gl/maps/KnQLW6zhq25fofhT6",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Rua+Fernando+Falcão,+1111,+Edifício+Bernini,+Sala+810,+São+Paulo,+SP",
   reference: "Próximo ao Hospital Villa Lobos",
 } as const;
 
