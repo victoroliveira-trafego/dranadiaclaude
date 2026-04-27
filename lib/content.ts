@@ -14,7 +14,7 @@ export const CONTACT = {
   whatsappMessage: "Olá, Dra. Nadia! Gostaria de agendar uma consulta.",
   instagram: "https://www.instagram.com/dra_nadia_odontopediatra",
   instagramHandle: "@dra_nadia_odontopediatra",
-  address: "Rua Fernando Falcão, 1111 — Edifício Bernini, Sala 810, 8° andar",
+  address: "Rua Fernando Falcão, 1111, Edifício Bernini, Sala 810, 8° andar",
   city: "Mooca, São Paulo",
   mapsUrl: "https://www.google.com/maps/search/?api=1&query=Rua+Fernando+Falcão,+1111,+Edifício+Bernini,+Sala+810,+São+Paulo,+SP",
   reference: "Próximo ao Hospital Villa Lobos",
@@ -26,7 +26,7 @@ export const WHATSAPP_URL = `https://wa.me/${CONTACT.whatsapp}?text=${encodeURIC
 export const HERO = {
   headline: "Seu filho pode adorar ir ao dentista.",
   subheadline:
-    "A Dra. Nadia Salem é odontopediatra especializada em transformar a primeira experiência do seu filho com o dentista em algo positivo — para o resto da vida.",
+    "A Dra. Nadia Salem é odontopediatra especializada em transformar a primeira experiência do seu filho com o dentista em algo positivo, para o resto da vida.",
   description:
     "Clínica especializada em atendimentos de bebês, crianças e adolescentes. Ambiente lúdico e acolhedor para uma experiência positiva.",
   ctaPrimary: "Agendar Consulta pelo WhatsApp",
@@ -45,9 +45,9 @@ export const CREDENTIALS: Credential[] = [
 export const PROBLEM = {
   title: 'Seu filho chora só de ouvir a palavra "dentista"?',
   paragraphs: [
-    "Isso é mais comum do que você imagina — e tem solução.",
+    "Isso é mais comum do que você imagina, e tem solução.",
     "Muitas crianças desenvolvem medo depois de uma primeira experiência ruim. E aí cada consulta vira uma batalha.",
-    "Quando a primeira visita é acolhedora, a criança aprende que o dentista é um lugar seguro. Isso muda tudo — para ela e para você.",
+    "Quando a primeira visita é acolhedora, a criança aprende que o dentista é um lugar seguro. Isso muda tudo, para ela e para você.",
   ],
 } as const;
 
@@ -59,34 +59,34 @@ export const ABOUT = {
     "A Dra. Nadia construiu sua carreira inteira em torno de um objetivo: que toda criança tenha uma experiência positiva no dentista.",
   body: [
     "Com Mestrado em Odontopediatria pela USP e mais de 20 anos de experiência, a Dra. Nadia combina uma formação técnica sólida com um jeito acolhedor e paciente de atender.",
-    "Professora colaboradora do Curso de Bebês da FUNDECTO-USP e habilitada em Laserterapia, ela oferece recursos modernos para que seu filho se sinta confortável — mesmo nos procedimentos mais delicados.",
+    "Professora colaboradora do Curso de Bebês da FUNDECTO-USP e habilitada em Laserterapia, ela oferece recursos modernos para que seu filho se sinta confortável, mesmo nos procedimentos mais delicados.",
   ],
 } as const;
 
 export const FORMATION: Formation[] = [
-  { id: "f1", text: "Graduação em Odontologia — UNICID (2002–2006)" },
-  { id: "f2", text: "Aperfeiçoamento em Odontopediatria — SOESP (2006–2007)" },
+  { id: "f1", text: "Graduação em Odontologia pela UNICID (2002–2006)" },
+  { id: "f2", text: "Aperfeiçoamento em Odontopediatria pela SOESP (2006–2007)" },
   {
     id: "f3",
-    text: "Especialização em Odontopediatria — FUNDECTO-USP (2008–2009)",
+    text: "Especialização em Odontopediatria pela FUNDECTO-USP (2008–2009)",
   },
   {
     id: "f4",
-    text: "Mestrado em Odontopediatria — Faculdade de Odontologia USP (2010–2012)",
+    text: "Mestrado em Odontopediatria pela Faculdade de Odontologia USP (2010–2012)",
   },
   {
     id: "f5",
-    text: "Pós-graduação em Ortodontia Infantil — CETAO, NEO, CEREO e FUNDECTO-USP",
+    text: "Pós-graduação em Ortodontia Infantil pelo CETAO, NEO, CEREO e FUNDECTO-USP",
   },
-  { id: "f6", text: "Habilitação em Sedação com Óxido Nitroso — NEOM" },
-  { id: "f7", text: "Habilitação em Laserterapia — FUNDECTO-USP" },
+  { id: "f6", text: "Habilitação em Sedação com Óxido Nitroso pelo NEOM" },
+  { id: "f7", text: "Habilitação em Laserterapia pela FUNDECTO-USP" },
   {
     id: "f8",
     text: "Professora colaboradora do Curso de Bebês da FUNDECTO-USP (jan/2025 – atual)",
   },
   {
     id: "f9",
-    text: "Primeiros Socorros com RCP e DEA — Instituto Albert Einstein (set/2025)",
+    text: "Primeiros Socorros com RCP e DEA pelo Instituto Albert Einstein (set/2025)",
   },
 ];
 
@@ -98,7 +98,7 @@ export const DIFFERENTIALS: Differential[] = [
     icon: "✨",
     title: "Laserterapia para procedimentos menos invasivos",
   },
-  { id: "d4", icon: "📚", title: "Formação continuada — sempre atualizada" },
+  { id: "d4", icon: "📚", title: "Formação continuada, sempre atualizada" },
 ];
 
 // ─── SERVIÇOS ─────────────────────────────────────────────────────────────────
@@ -112,7 +112,7 @@ export const SERVICES: Service[] = [
     icon: "👶",
     title: "Primeira Consulta do Bebê",
     description:
-      "A saúde bucal começa antes dos primeiros dentinhos. Orientamos você desde cedo para garantir um desenvolvimento saudável — e uma relação positiva com o dentista desde o início.",
+      "A saúde bucal começa antes dos primeiros dentinhos. Orientamos você desde cedo para garantir um desenvolvimento saudável e uma relação positiva com o dentista desde o início.",
   },
   {
     id: "s2",
@@ -133,7 +133,7 @@ export const SERVICES: Service[] = [
     icon: "😁",
     title: "Ortodontia Infantil",
     description:
-      "Acompanhamos o desenvolvimento da mordida e, quando indicado, iniciamos o tratamento cedo — quando a correção é mais simples e os resultados são melhores.",
+      "Acompanhamos o desenvolvimento da mordida e, quando indicado, iniciamos o tratamento cedo, quando a correção é mais simples e os resultados são melhores.",
   },
   {
     id: "s6",
@@ -147,7 +147,7 @@ export const SERVICES: Service[] = [
     icon: "🚨",
     title: "Urgências Odontológicas",
     description:
-      "Dente trincado, dor, queda de dente de leite? Atendemos urgências com agilidade — porque quando dói, não dá para esperar.",
+      "Dente trincado, dor, queda de dente de leite? Atendemos urgências com agilidade, porque quando dói, não dá para esperar.",
   },
 ];
 
@@ -182,7 +182,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     id: "q1",
     question: "A partir de que idade meu filho deve ir ao dentista?",
     answer:
-      "Assim que o primeiro dentinho aparecer — ou até antes. A primeira consulta serve para orientar os pais sobre higiene e desenvolvimento saudável desde o início.",
+      "Assim que o primeiro dentinho aparecer, ou até antes. A primeira consulta serve para orientar os pais sobre higiene e desenvolvimento saudável desde o início.",
   },
   {
     id: "q2",
@@ -194,7 +194,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     id: "q3",
     question: "Como funciona o agendamento?",
     answer:
-      "É simples — clique no botão e envie uma mensagem pelo WhatsApp. Nossa equipe retorna rapidamente para marcar o melhor horário para você.",
+      "É simples: clique no botão e envie uma mensagem pelo WhatsApp. Nossa equipe retorna rapidamente para marcar o melhor horário para você.",
   },
 ];
 
@@ -202,6 +202,6 @@ export const FAQ_ITEMS: FAQItem[] = [
 export const CTA_FINAL = {
   title: "Pronto para cuidar do sorriso do seu filho?",
   subtitle:
-    "A primeira consulta é especial — pensada para que seu filho conheça o consultório, se sinta à vontade e saia com vontade de voltar.",
+    "A primeira consulta é especial, pensada para que seu filho conheça o consultório, se sinta à vontade e saia com vontade de voltar.",
   cta: "Agendar pelo WhatsApp",
 } as const;

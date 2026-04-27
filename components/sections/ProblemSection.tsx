@@ -8,10 +8,10 @@ import { PROBLEM, WHATSAPP_URL } from "@/lib/content";
 const EASE_OUT: [number, number, number, number] = [0.23, 1, 0.32, 1];
 
 const SIGNS = [
-  { emoji: "😰", text: "Choro antes de sair de casa" },
-  { emoji: "😤", text: "Recusa total na cadeira" },
-  { emoji: "😴", text: "Noites mal dormidas com dor de dente" },
-  { emoji: "😬", text: "Trauma de uma consulta ruim" },
+  { icon: <CryIcon />, text: "Chora antes de sair de casa" },
+  { icon: <RefuseIcon />, text: "Recusa total na cadeira" },
+  { icon: <ToothPainIcon />, text: "Noites mal dormidas com dor de dente" },
+  { icon: <TraumaIcon />, text: "Trauma de uma consulta ruim" },
 ];
 
 export default function ProblemSection() {
@@ -135,8 +135,8 @@ export default function ProblemSection() {
                   animate={inView ? { opacity: 1, scale: 1 } : {}}
                   transition={{ duration: 0.4, delay: 0.2 + i * 0.07, ease: EASE_OUT }}
                 >
-                  <span className="text-xl flex-shrink-0" role="img" aria-hidden="true">
-                    {sign.emoji}
+                  <span className="flex-shrink-0 text-brand-muted" aria-hidden="true">
+                    {sign.icon}
                   </span>
                   <p className="text-xs font-semibold text-brand-text leading-snug">{sign.text}</p>
                 </motion.div>
@@ -162,7 +162,7 @@ export default function ProblemSection() {
                       >
                         Quando a primeira visita é acolhedora,
                       </span>{" "}
-                      a criança aprende que o dentista é um lugar seguro. Isso muda tudo — para ela e para você.
+                      a criança aprende que o dentista é um lugar seguro. Isso muda tudo, para ela e para você.
                     </>
                   ) : p}
                 </motion.p>
@@ -204,6 +204,45 @@ export default function ProblemSection() {
 }
 
 // ── SVG Icons ─────────────────────────────────────────────────────────────────
+
+function CryIcon() {
+  return (
+    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="12" cy="10" r="7" />
+      <path d="M8 13s1 2 4 2 4-2 4-2" />
+      <path d="M9 9h.01M15 9h.01" />
+      <path d="M10 17c0 2-1 4-1 4M14 17c0 2 1 4 1 4" />
+    </svg>
+  );
+}
+
+function RefuseIcon() {
+  return (
+    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M4.93 4.93l14.14 14.14" />
+    </svg>
+  );
+}
+
+function ToothPainIcon() {
+  return (
+    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 2C9.5 2 7 3.5 6 5.5 5 3.5 3 2 3 2c-1 0-2 1.5-2 3.5 0 3 1.5 5.5 3 7.5.5 4 1.5 9 3 9 1 0 1.5-1 2-3 .4-1.5.8-2.5 1-2.5h.5c.2 0 .6 1 1 2.5.5 2 1 3 2 3 1.5 0 2.5-5 3-9 1.5-2 3-4.5 3-7.5 0-2-1-3.5-2-3.5 0 0-2 1.5-3 3.5C14.5 3.5 12 2 12 2z" />
+      <path d="M12 7v4M12 14h.01" />
+    </svg>
+  );
+}
+
+function TraumaIcon() {
+  return (
+    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" />
+      <line x1="12" y1="9" x2="12" y2="13" />
+      <line x1="12" y1="17" x2="12.01" y2="17" />
+    </svg>
+  );
+}
 
 function ShieldHeartIcon({ style }: { style?: React.CSSProperties }) {
   return (
