@@ -105,7 +105,7 @@ export default function ProofSection() {
                 </div>
                 <div>
                   <p className="text-xs text-brand-muted font-medium leading-none mb-0.5">Avaliação</p>
-                  <p className="text-sm font-bold text-brand-text leading-none">5 estrelas</p>
+                  <p className="text-sm font-bold text-brand-text leading-none">4.8 no Google</p>
                 </div>
               </motion.div>
             </div>
