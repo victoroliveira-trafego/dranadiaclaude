@@ -59,7 +59,7 @@ export const ABOUT = {
     "A Dra. Nadia construiu sua carreira inteira em torno de um objetivo: que toda criança tenha uma experiência positiva no dentista.",
   body: [
     "Com Mestrado em Odontopediatria pela USP e mais de 20 anos de experiência, a Dra. Nadia combina uma formação técnica sólida com um jeito acolhedor e paciente de atender.",
-    "Professora colaboradora do Curso de Bebês da FUNDECTO-USP e habilitada em Laserterapia, ela oferece recursos modernos para que seu filho se sinta confortável, mesmo nos procedimentos mais delicados.",
+    "Professora do Curso de Bebês da FUNDECTO-USP e habilitada em Laserterapia, ela oferece recursos modernos para que seu filho se sinta confortável, mesmo nos procedimentos mais delicados.",
   ],
 } as const;
 

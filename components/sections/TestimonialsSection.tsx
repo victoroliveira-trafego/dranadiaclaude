@@ -94,7 +94,7 @@ export default function TestimonialsSection() {
               </div>
               <div>
                 <p className="text-xs text-brand-muted font-medium leading-none mb-0.5">Avaliação</p>
-                <p className="text-sm font-bold text-brand-text leading-none">5.0 no Google</p>
+                <p className="text-sm font-bold text-brand-text leading-none">4.8 no Google</p>
               </div>
             </motion.div>
           </motion.div>
