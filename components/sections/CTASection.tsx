@@ -75,17 +75,6 @@ export default function CTASection() {
       <div ref={ref} className="section-padding container-max relative">
         <div className="flex flex-col items-center text-center gap-8 max-w-2xl mx-auto">
 
-          {/* Ícone */}
-          <motion.div
-            className="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center shadow-card"
-            initial={reduceMotion ? {} : { opacity: 0, scale: 0.8 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.5, ease: EASE_OUT }}
-            animate-float={!reduceMotion ? "true" : undefined}
-          >
-            <ToothIcon className="w-8 h-8 text-white" />
-          </motion.div>
-
           {/* Título */}
           <motion.h2
             className="text-3xl md:text-4xl font-bold text-white leading-tight text-balance"

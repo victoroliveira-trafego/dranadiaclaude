@@ -80,23 +80,6 @@ export default function TestimonialsSection() {
               <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/25 to-transparent" />
             </div>
 
-            {/* Badge flutuante */}
-            <motion.div
-              className="absolute -right-4 top-10 bg-white rounded-2xl shadow-card px-4 py-3
-                         flex items-center gap-3 border border-gray-100 z-20"
-              animate={reduceMotion ? {} : { y: [0, -6, 0] }}
-              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            >
-              <div className="flex gap-0.5">
-                {[...Array(5)].map((_, i) => (
-                  <StarIcon key={i} className="w-3.5 h-3.5" style={{ color: "#FCB900" }} />
-                ))}
-              </div>
-              <div>
-                <p className="text-xs text-brand-muted font-medium leading-none mb-0.5">Avaliação</p>
-                <p className="text-sm font-bold text-brand-text leading-none">4.8 no Google</p>
-              </div>
-            </motion.div>
           </motion.div>
 
           {/* ── Direita: Header + Cards ── */}

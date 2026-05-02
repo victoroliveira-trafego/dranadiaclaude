@@ -81,7 +81,7 @@ export default function ProofSection() {
               {/* Foto */}
               <div className="relative w-[280px] h-[340px] sm:w-[320px] sm:h-[390px] rounded-3xl overflow-hidden shadow-strong z-10">
                 <Image
-                  src="/images/foto-apenas-nadia.png"
+                  src="/images/nadia-rosa.png"
                   alt="Dra. Nadia Salem — Odontopediatra especialista"
                   fill
                   className="object-cover object-top"
@@ -91,23 +91,6 @@ export default function ProofSection() {
                 <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/20 to-transparent" />
               </div>
 
-              {/* Badge Google Reviews */}
-              <motion.div
-                className="absolute -right-6 top-8 bg-white rounded-2xl shadow-card px-4 py-3
-                           flex items-center gap-3 border border-gray-100 z-20"
-                animate={reduceMotion ? {} : { y: [0, -5, 0] }}
-                transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
-              >
-                <div className="flex gap-0.5">
-                  {[...Array(5)].map((_, i) => (
-                    <StarFillIcon key={i} className="w-3.5 h-3.5 text-brand-yellow" />
-                  ))}
-                </div>
-                <div>
-                  <p className="text-xs text-brand-muted font-medium leading-none mb-0.5">Avaliação</p>
-                  <p className="text-sm font-bold text-brand-text leading-none">4.8 no Google</p>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
 
